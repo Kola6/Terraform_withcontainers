@@ -87,7 +87,7 @@ variable "amis" {
 variable "instance_type" {
   default = "t2.micro"
 }
-variable "docker_image_url_django" {
+variable "324037304998.dkr.ecr.eu-north-1.amazonaws.com/django-app" {
   description = "Docker image to run in the ECS cluster"
   default     = "600735812827.dkr.ecr.us-west-1.amazonaws.com/django-app:latest"
 }
